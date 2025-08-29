@@ -1,0 +1,16 @@
+[package]
+name = "boost_odeint"
+description = "Boost C++ library boost_odeint packaged using Zanbil"
+version = "0.1.0"
+edition = "2024"
+links = "boost_odeint"
+license = "BSL-1.0"
+repository = "https://github.com/zanbilify/boost_odeint"
+
+[package.metadata.zanbil]
+make_dependencies_public = true
+
+[dependencies]
+
+[build-dependencies]
+zanbil-boost-build = "0.1.0"
